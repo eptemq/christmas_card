@@ -27,7 +27,7 @@ struct Wishes: View {
         )
     ]
     var body: some View {
-        VStack(alignment: .leading, spacing: 16) {
+        VStack(alignment: .leading, spacing: 12) {
             Text("Пожелания в Новом году")
             .font(.system(size: 22, weight: .semibold))
             .frame(height: 28)
