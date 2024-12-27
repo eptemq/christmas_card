@@ -19,11 +19,19 @@ struct ContentView: View {
                         Image("Seach")
                     }
 
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            Image("Notification")
-                        }
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Image("Notification")
                     }
+                }
+        }
+        .background(
+            VStack {
+                Spacer()
+                Divider()
+                    .frame(height: 1)
+                    .background(Color.gray) 
             }
+        )
     }
 }
 
