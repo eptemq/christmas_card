@@ -8,15 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab = 0
-    private var selectedTabColor = UIColor(hex: 0x5548E7, alpha: 1.0)
-
-    init() {
-        self.selectedTab = 0
-        self.selectedTabColor = UIColor(hex: 0x5548E7, alpha: 1.0)
-    }
     var body: some View {
-//        TabView(selection: $selectedTab) {
             NavigationView {
                 Text("Main Content")
                     .navigationTitle("Хо-Хо-Хо")
@@ -31,28 +23,6 @@ struct ContentView: View {
                         }
                     }
             }
-//            .tabItem {
-//                Image("Home")
-//            }
-//            .tag(0)
-//            SearchView()
-//                .tabItem {
-//                    Image("Play")
-//                }
-//                .tag(1)
-//
-//            ProfileView()
-//                .tabItem {
-//                    Image("More")
-//                }
-//                .tag(2)
-//            ProfileView()
-//                .tabItem {
-//                    Image("Chat")
-//                }
-//                .tag(3)
-//        }
-//        .accentColor(.red)
     }
 
     private func setupTabBarAppearance() {
@@ -72,24 +42,6 @@ struct ContentView: View {
         if #available(iOS 15.0, *) {
             UITabBar.appearance().scrollEdgeAppearance = appearance
         }
-    }
-}
-
-struct HomeView: View {
-    var body: some View {
-        Text("Home Screen")
-    }
-}
-
-struct SearchView: View {
-    var body: some View {
-        Text("Search Screen")
-    }
-}
-
-struct ProfileView: View {
-    var body: some View {
-        Text("Profile Screen")
     }
 }
 

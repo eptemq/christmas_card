@@ -11,7 +11,6 @@
 		05A76F192D1ED6BD000DD17F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A76F182D1ED6BD000DD17F /* ContentView.swift */; };
 		05A76F1B2D1ED6BF000DD17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A76F1A2D1ED6BF000DD17F /* Assets.xcassets */; };
 		05A76F1F2D1ED6BF000DD17F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A76F1E2D1ED6BF000DD17F /* Preview Assets.xcassets */; };
-		05A76F262D1EE058000DD17F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A76F252D1EE058000DD17F /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		05A76F1A2D1ED6BF000DD17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A76F1C2D1ED6BF000DD17F /* christmas_card.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = christmas_card.entitlements; sourceTree = "<group>"; };
 		05A76F1E2D1ED6BF000DD17F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		05A76F252D1EE058000DD17F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				05A76F1A2D1ED6BF000DD17F /* Assets.xcassets */,
 				05A76F1C2D1ED6BF000DD17F /* christmas_card.entitlements */,
 				05A76F1D2D1ED6BF000DD17F /* Preview Content */,
-				05A76F252D1EE058000DD17F /* UIColor+Extension.swift */,
 			);
 			path = christmas_card;
 			sourceTree = "<group>";
@@ -142,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A76F262D1EE058000DD17F /* UIColor+Extension.swift in Sources */,
 				05A76F192D1ED6BD000DD17F /* ContentView.swift in Sources */,
 				05A76F172D1ED6BD000DD17F /* christmas_cardApp.swift in Sources */,
 			);
