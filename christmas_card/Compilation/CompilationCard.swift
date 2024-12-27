@@ -23,17 +23,8 @@ struct CompilationCard: View {
                     )
                 )
         }
-        .cornerRadius(28)
-        .background(
-            RoundedRectangle(cornerRadius: 28)
-                .fill(.white)
-                .shadow(
-                    color: .black.opacity(0.08),
-                    radius: 10,
-                    x: 0,
-                    y: 4
-                )
-        )
+        .card()
+        .padding(.horizontal, 20)
     }
 }
 

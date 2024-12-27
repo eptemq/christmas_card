@@ -10,7 +10,10 @@ import SwiftUI
 struct NewYearView: View {
     var body: some View {
         ScrollView(.vertical) {
-            Wishes()
+            VStack(spacing: 24) {
+                CompilationCard()
+                Wishes()
+            }
         }
     }
 }
