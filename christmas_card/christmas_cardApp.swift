@@ -46,7 +46,7 @@ struct MainTabView: View {
                 }
                 .tag(3)
         }
-        .accentColor(.purple) // Optional: Customize the selected tab color
+        .accentColor(Color(UIColor(red: 85.0 / 255.0, green: 72.0 / 255.0, blue: 231.0 / 255.0, alpha: 1)))
     }
 }
 
