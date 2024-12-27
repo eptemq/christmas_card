@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            Text("Main Content")
+            NewYearView()
                 .navigationTitle("Хо-Хо-Хо")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {

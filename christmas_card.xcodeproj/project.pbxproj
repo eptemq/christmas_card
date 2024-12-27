@@ -14,6 +14,7 @@
 		9C8C49242D1EE05200934BAA /* Wishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49232D1EE05200934BAA /* Wishes.swift */; };
 		9C8C49252D1EE05200934BAA /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49222D1EE05200934BAA /* Wish.swift */; };
 		9C8C49262D1EE05200934BAA /* View+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49212D1EE05200934BAA /* View+Card.swift */; };
+		9C8C49282D1EE39F00934BAA /* NewYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49272D1EE39300934BAA /* NewYearView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9C8C49212D1EE05200934BAA /* View+Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Card.swift"; sourceTree = "<group>"; };
 		9C8C49222D1EE05200934BAA /* Wish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
 		9C8C49232D1EE05200934BAA /* Wishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishes.swift; sourceTree = "<group>"; };
+		9C8C49272D1EE39300934BAA /* NewYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		05A76F152D1ED6BD000DD17F /* christmas_card */ = {
 			isa = PBXGroup;
 			children = (
+				9C8C49272D1EE39300934BAA /* NewYearView.swift */,
 				9C8C49202D1EE02400934BAA /* Wishes */,
 				05A76F162D1ED6BD000DD17F /* christmas_cardApp.swift */,
 				05A76F182D1ED6BD000DD17F /* ContentView.swift */,
@@ -158,6 +161,7 @@
 			files = (
 				05A76F192D1ED6BD000DD17F /* ContentView.swift in Sources */,
 				05A76F172D1ED6BD000DD17F /* christmas_cardApp.swift in Sources */,
+				9C8C49282D1EE39F00934BAA /* NewYearView.swift in Sources */,
 				9C8C49242D1EE05200934BAA /* Wishes.swift in Sources */,
 				9C8C49252D1EE05200934BAA /* Wish.swift in Sources */,
 				9C8C49262D1EE05200934BAA /* View+Card.swift in Sources */,
