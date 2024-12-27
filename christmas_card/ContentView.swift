@@ -16,12 +16,12 @@ struct ContentView: View {
                 .toolbar {
                     // Left corner item
                     ToolbarItem(placement: .navigationBarLeading) {
-                        Image("Chat")
+                        Image("Seach")
                     }
 
                     // Right corner item
                     ToolbarItem(placement: .navigationBarTrailing) {
-                        Image("Seach")
+                        Image("Notification")
                     }
                 }
         }
