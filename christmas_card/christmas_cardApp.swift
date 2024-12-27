@@ -51,8 +51,10 @@ struct MyApp: App {
 
 
 struct MainTabView: View {
+    @State private var selectedTab = 0
+
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab){
             ContentView()
                 .tabItem {
                     Image("Home")
