@@ -14,6 +14,7 @@ struct NewYearView: View {
                 CompilationCard()
                 Wishes()
             }
+            .padding(20)
         }
     }
 }

@@ -24,7 +24,6 @@ struct CompilationCard: View {
                 )
         }
         .card()
-        .padding(.horizontal, 20)
     }
 }
 

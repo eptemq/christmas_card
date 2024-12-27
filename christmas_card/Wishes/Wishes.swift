@@ -46,7 +46,6 @@ struct Wishes: View {
                 }
             }
         }
-        .padding(.horizontal, 20)
     }
 }
 
