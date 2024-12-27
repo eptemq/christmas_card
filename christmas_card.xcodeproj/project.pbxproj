@@ -11,6 +11,10 @@
 		05A76F192D1ED6BD000DD17F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A76F182D1ED6BD000DD17F /* ContentView.swift */; };
 		05A76F1B2D1ED6BF000DD17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A76F1A2D1ED6BF000DD17F /* Assets.xcassets */; };
 		05A76F1F2D1ED6BF000DD17F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A76F1E2D1ED6BF000DD17F /* Preview Assets.xcassets */; };
+		9C8C49242D1EE05200934BAA /* Wishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49232D1EE05200934BAA /* Wishes.swift */; };
+		9C8C49252D1EE05200934BAA /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49222D1EE05200934BAA /* Wish.swift */; };
+		9C8C49262D1EE05200934BAA /* View+Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49212D1EE05200934BAA /* View+Card.swift */; };
+		9C8C49282D1EE39F00934BAA /* NewYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C49272D1EE39300934BAA /* NewYearView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		05A76F1A2D1ED6BF000DD17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05A76F1C2D1ED6BF000DD17F /* christmas_card.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = christmas_card.entitlements; sourceTree = "<group>"; };
 		05A76F1E2D1ED6BF000DD17F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C8C49212D1EE05200934BAA /* View+Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Card.swift"; sourceTree = "<group>"; };
+		9C8C49222D1EE05200934BAA /* Wish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
+		9C8C49232D1EE05200934BAA /* Wishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishes.swift; sourceTree = "<group>"; };
+		9C8C49272D1EE39300934BAA /* NewYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,8 @@
 		05A76F152D1ED6BD000DD17F /* christmas_card */ = {
 			isa = PBXGroup;
 			children = (
+				9C8C49272D1EE39300934BAA /* NewYearView.swift */,
+				9C8C49202D1EE02400934BAA /* Wishes */,
 				05A76F162D1ED6BD000DD17F /* christmas_cardApp.swift */,
 				05A76F182D1ED6BD000DD17F /* ContentView.swift */,
 				05A76F1A2D1ED6BF000DD17F /* Assets.xcassets */,
@@ -67,6 +77,16 @@
 				05A76F1E2D1ED6BF000DD17F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C8C49202D1EE02400934BAA /* Wishes */ = {
+			isa = PBXGroup;
+			children = (
+				9C8C49212D1EE05200934BAA /* View+Card.swift */,
+				9C8C49222D1EE05200934BAA /* Wish.swift */,
+				9C8C49232D1EE05200934BAA /* Wishes.swift */,
+			);
+			path = Wishes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +161,10 @@
 			files = (
 				05A76F192D1ED6BD000DD17F /* ContentView.swift in Sources */,
 				05A76F172D1ED6BD000DD17F /* christmas_cardApp.swift in Sources */,
+				9C8C49282D1EE39F00934BAA /* NewYearView.swift in Sources */,
+				9C8C49242D1EE05200934BAA /* Wishes.swift in Sources */,
+				9C8C49252D1EE05200934BAA /* Wish.swift in Sources */,
+				9C8C49262D1EE05200934BAA /* View+Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +316,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.christmas-card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,10 +355,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.christmas-card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
